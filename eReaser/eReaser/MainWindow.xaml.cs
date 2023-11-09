@@ -145,6 +145,8 @@ namespace eReaser
                         Application.Current.MainWindow.Width = 1920;
                         Application.Current.MainWindow.WindowStartupLocation = WindowStartupLocation.CenterScreen;
                         Application.Current.MainWindow.WindowState = WindowState.Maximized;
+                        Teacher_Classes window = new Teacher_Classes();
+                        Application.Current.MainWindow.Content = window.Content;
                     }
                 }
                 index++;
@@ -169,6 +171,8 @@ namespace eReaser
                         Application.Current.MainWindow.Width = 1920;
                         Application.Current.MainWindow.WindowStartupLocation = WindowStartupLocation.CenterScreen;
                         Application.Current.MainWindow.WindowState = WindowState.Maximized;
+                        StudentClasses studentClasses = new StudentClasses();
+                        Application.Current.MainWindow.Content = studentClasses.Content;
                     }
                 }
                 index++;

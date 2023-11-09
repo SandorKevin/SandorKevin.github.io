@@ -19,7 +19,6 @@ Z:\ereaser\SandorKevin.github.io\eReaser\eReaser\obj\Debug\net7.0-windows\eRease
 Z:\ereaser\SandorKevin.github.io\eReaser\eReaser\obj\Debug\net7.0-windows\eReaser.genruntimeconfig.cache
 Z:\ereaser\SandorKevin.github.io\eReaser\eReaser\obj\Debug\net7.0-windows\ref\eReaser.dll
 Z:\ereaser\SandorKevin.github.io\eReaser\eReaser\obj\Debug\net7.0-windows\eReaser.csproj.AssemblyReference.cache
-Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\eReaser.csproj.AssemblyReference.cache
 Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\MainWindow.g.cs
 Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\App.g.cs
 Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\eReaser_MarkupCompile.cache
@@ -42,3 +41,17 @@ Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\refint\eReaser.dll
 Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\eReaser.pdb
 Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\eReaser.genruntimeconfig.cache
 Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\ref\eReaser.dll
+Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\GhostGrade.g.cs
+Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\StudentClasses.g.cs
+Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\StudentGrades.g.cs
+Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\Students_Timetable.g.cs
+Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\Teacher-Classes.g.cs
+Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\Teacher-Timetable.g.cs
+Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\TeacherClass.g.cs
+Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\GhostGrade.baml
+Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\StudentClasses.baml
+Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\StudentGrades.baml
+Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\Students_Timetable.baml
+Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\Teacher-Classes.baml
+Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\Teacher-Timetable.baml
+Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\TeacherClass.baml

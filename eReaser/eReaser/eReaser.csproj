@@ -8,14 +8,54 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="classes.png" />
+    <None Remove="close.png" />
     <None Remove="favicon.png" />
     <None Remove="key-icon.png" />
+    <None Remove="logout.png" />
+    <None Remove="Source\img\classes.png" />
+    <None Remove="Source\img\close.png" />
+    <None Remove="Source\img\logout.png" />
+    <None Remove="Source\img\people.png" />
+    <None Remove="Source\img\person.png" />
+    <None Remove="Source\img\timetable.png" />
+    <None Remove="timetable.png" />
     <None Remove="user-icon.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="classes.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="close.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="favicon.png" />
     <Resource Include="key-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="logout.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Source\img\classes.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Source\img\close.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Source\img\logout.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Source\img\people.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Source\img\person.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Source\img\timetable.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="timetable.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="user-icon.png">

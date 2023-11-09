@@ -1,0 +1,88 @@
+﻿<Window x:Class="eReaser.TeacherClass"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eReaser"
+        mc:Ignorable="d"
+        Title="TeacherClass" Height="1080" Width="1920" >
+    <Grid Margin="0, 0,0,0" Background="White">
+        <Grid x:Name="grd_Vertical" Width="106" Margin="0,0,1814,0" Background="#FFA500">
+            <Grid Height="60" Width="60" Margin="0,-760,0,0">
+                <Border CornerRadius="10" Background="#33830C0B"/>
+                <Label MouseDown="button_TimeTable_Click" x:Name="button_TimeTable" Content="" HorizontalAlignment="Center" Height="60" VerticalAlignment="Top" Width="60" Cursor="Hand" BorderBrush="{x:Null}">
+                    <Label.Background>
+                        <ImageBrush ImageSource="/timetable.png"/>
+                    </Label.Background>
+                </Label>
+            </Grid>
+            <Grid Height="60" Width="60" Margin="0,-613,0,0">
+                <Border CornerRadius="10" Background="#33830C0B"/>
+                <Label MouseDown="button_Logout_MouseDown" x:Name="button_Logout" Content="" HorizontalAlignment="Center" Height="60" VerticalAlignment="Top" Width="60" Cursor="Hand" BorderBrush="{x:Null}">
+                    <Label.Background>
+
+                        <ImageBrush ImageSource="/Source/img/logout.png"/>
+
+                    </Label.Background>
+                </Label>
+            </Grid>
+            <Grid Height="60" Width="60" Margin="0,-466,0,0">
+                <Border CornerRadius="10" Background="#33830C0B"/>
+                <Label MouseDown="button_logoutClose_MouseDown" x:Name="button_logoutClose" Content="" HorizontalAlignment="Center" Height="60" VerticalAlignment="Top" Width="60" Cursor="Hand" BorderBrush="{x:Null}">
+                    <Label.Background>
+                        <ImageBrush ImageSource="/close.png"/>
+                    </Label.Background>
+                </Label>
+            </Grid>
+        </Grid>
+        <Grid x:Name="grd_Horizontal" Height="100" Margin="0,0,0,980" Background="#FF830C0B">
+            <Label Content="eCeruza-Tanár" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Height="80" Width="300" FontSize="40" VerticalContentAlignment="Center" Foreground="Orange" FontWeight="DemiBold"/>
+        </Grid>
+        <Label x:Name="lbl_Subject" Content="Tantárgyak" HorizontalAlignment="Left" Margin="200,133,0,0" VerticalAlignment="Top" Height="85" Width="280" FontSize="50" Foreground="#FF830C0B" FontWeight="Bold"/>
+        <Grid Margin="200,223,82,68">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="#FF4E2828" Content="Név" HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="1" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Szept." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="2" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Okt." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="3" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Nov." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="4" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Dec." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="5" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Jan." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="6" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Feb." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="7" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Márc." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="8" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Ápr." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="9" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Máj." HorizontalContentAlignment="Center"/>
+        </Grid>
+
+        <Label Content="Órarend" HorizontalAlignment="Left" Margin="1551,117,0,0" VerticalAlignment="Top" Height="88" Width="287" FontSize="40" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="LightGray"/>
+    </Grid>
+</Window>
