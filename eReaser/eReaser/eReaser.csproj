@@ -8,11 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="favicon.png" />
     <None Remove="key-icon.png" />
     <None Remove="user-icon.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="favicon.png" />
     <Resource Include="key-icon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
