@@ -215,6 +215,7 @@
                             FontFamily="Montserrat"
                             Cursor="Hand"                           
                             Margin="288,307,288,169"
+                            Click="btn_Login_Click"
                             IsDefault="True" Grid.Row="1">
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
