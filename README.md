@@ -1,4 +1,4 @@
-# **eReaser**
+# **eRaser**
 
 ## Tanár
 - Tanított osztályok megtekintése
