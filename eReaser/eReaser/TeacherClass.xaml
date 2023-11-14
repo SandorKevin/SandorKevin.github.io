@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="TeacherClass" Height="1080" Width="1920" >
     <Grid Margin="0, 0,0,0" Background="White">
-        <Grid x:Name="grd_Vertical" Width="106" Margin="0,0,1814,0" Background="#FFA500">
+        <Grid x:Name="grd_Vertical" Width="106" Margin="0,0,1814,0" Background="#FFFF2421">
             <Grid Height="60" Width="60" Margin="0,-760,0,0">
                 <Border CornerRadius="10" Background="#33830C0B"/>
                 <Label MouseDown="button_TimeTable_Click" x:Name="button_TimeTable" Content="" HorizontalAlignment="Center" Height="60" VerticalAlignment="Top" Width="60" Cursor="Hand" BorderBrush="{x:Null}">
@@ -35,10 +35,10 @@
                 </Label>
             </Grid>
         </Grid>
-        <Grid x:Name="grd_Horizontal" Height="100" Margin="0,0,0,980" Background="#FF830C0B">
-            <Label Content="eCeruza-Tanár" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Height="80" Width="300" FontSize="40" VerticalContentAlignment="Center" Foreground="Orange" FontWeight="DemiBold"/>
+        <Grid x:Name="grd_Horizontal" Height="100" Margin="0,0,0,980" Background="#252324">
+            <Label Content="eRaser-Tanár" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Height="80" Width="300" FontSize="40" VerticalContentAlignment="Center" Foreground="#F22A27" FontWeight="DemiBold"/>
         </Grid>
-        <Label x:Name="lbl_Subject" Content="Tantárgyak" HorizontalAlignment="Left" Margin="200,133,0,0" VerticalAlignment="Top" Height="85" Width="280" FontSize="50" Foreground="#FF830C0B" FontWeight="Bold"/>
+        <Label x:Name="lbl_Subject" Content="Tantárgyak" HorizontalAlignment="Left" Margin="200,133,0,0" VerticalAlignment="Top" Height="85" Width="280" FontSize="50" Foreground="#252324" FontWeight="Bold"/>
         <Grid Margin="200,223,82,68">
             <Grid.RowDefinitions>
                 <RowDefinition/>
@@ -71,16 +71,16 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Label Grid.Column="0" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="#FF4E2828" Content="Név" HorizontalContentAlignment="Center"/>
-            <Label Grid.Column="1" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Szept." HorizontalContentAlignment="Center"/>
-            <Label Grid.Column="2" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Okt." HorizontalContentAlignment="Center"/>
-            <Label Grid.Column="3" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Nov." HorizontalContentAlignment="Center"/>
-            <Label Grid.Column="4" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Dec." HorizontalContentAlignment="Center"/>
-            <Label Grid.Column="5" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Jan." HorizontalContentAlignment="Center"/>
-            <Label Grid.Column="6" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Feb." HorizontalContentAlignment="Center"/>
-            <Label Grid.Column="7" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Márc." HorizontalContentAlignment="Center"/>
-            <Label Grid.Column="8" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Ápr." HorizontalContentAlignment="Center"/>
-            <Label Grid.Column="9" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="Orange" Content="Máj." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="0" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="#2C2C2C" Content="Név" HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="1" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="#F22A27" Content="Szept." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="2" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="#F22A27" Content="Okt." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="3" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="#F22A27" Content="Nov." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="4" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="#F22A27" Content="Dec." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="5" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="#F22A27" Content="Jan." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="6" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="#F22A27" Content="Feb." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="7" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="#F22A27" Content="Márc." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="8" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="#F22A27" Content="Ápr." HorizontalContentAlignment="Center"/>
+            <Label Grid.Column="9" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="#F22A27" Content="Máj." HorizontalContentAlignment="Center"/>
         </Grid>
 
         <Label Content="Órarend" HorizontalAlignment="Left" Margin="1551,117,0,0" VerticalAlignment="Top" Height="88" Width="287" FontSize="40" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="LightGray"/>

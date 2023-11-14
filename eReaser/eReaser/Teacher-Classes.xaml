@@ -18,19 +18,19 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl1" Content="Label" Grid.Column="0" Grid.Row="0" Background="#FFF0C8B9" Visibility="hidden" />
-            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl2" Content="Label" Grid.Column="1" Grid.Row="0" Background="#FFF0C8B9" Visibility="hidden" />
-            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl3" Content="Label" Grid.Column="2" Grid.Row="0" Background="#FFF0C8B9" Visibility="hidden" />
-            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl4" Content="Label" Grid.Column="0" Grid.Row="1" Background="#FFF0C8B9" Visibility="hidden" />
-            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl5" Content="Label" Grid.Column="1" Grid.Row="1" Background="#FFF0C8B9" Visibility="hidden" />
-            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl6" Content="Label" Grid.Column="2" Grid.Row="1" Background="#FFF0C8B9" Visibility="hidden" />
-            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl7" Content="Label" Grid.Column="0" Grid.Row="2" Background="#FFF0C8B9" Visibility="hidden" />
-            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl8" Content="Label" Grid.Column="1" Grid.Row="2" Background="#FFF0C8B9" Visibility="hidden" />
-            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl9" Content="Label" Grid.Column="2" Grid.Row="2" Background="#FFF0C8B9" Visibility="hidden" />
+            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl1" Content="Label" Grid.Column="0" Grid.Row="0" Background="#9A9A9A" Visibility="hidden" />
+            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl2" Content="Label" Grid.Column="1" Grid.Row="0" Background="#9A9A9A" Visibility="hidden" />
+            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl3" Content="Label" Grid.Column="2" Grid.Row="0" Background="#9A9A9A" Visibility="hidden" />
+            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl4" Content="Label" Grid.Column="0" Grid.Row="1" Background="#9A9A9A" Visibility="hidden" />
+            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl5" Content="Label" Grid.Column="1" Grid.Row="1" Background="#9A9A9A" Visibility="hidden" />
+            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl6" Content="Label" Grid.Column="2" Grid.Row="1" Background="#9A9A9A" Visibility="hidden" />
+            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl7" Content="Label" Grid.Column="0" Grid.Row="2" Background="#9A9A9A" Visibility="hidden" />
+            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl8" Content="Label" Grid.Column="1" Grid.Row="2" Background="#9A9A9A" Visibility="hidden" />
+            <Label Margin="20 10" MouseLeftButtonDown="LB_Click" x:Name="lbl9" Content="Label" Grid.Column="2" Grid.Row="2" Background="#9A9A9A" Visibility="hidden" />
         </Grid>
-        <Label Content="Tanított osztáyok" HorizontalAlignment="Left" Margin="194,126,0,0" VerticalAlignment="Top" Height="74" Width="442" FontSize="48" FontWeight="Bold" Foreground="#FF830C0B"/>
+        <Label Content="Tanított osztáyok" HorizontalAlignment="Left" Margin="194,126,0,0" VerticalAlignment="Top" Height="74" Width="442" FontSize="48" FontWeight="Bold" Foreground="#252324"/>
 
-        <Grid x:Name="grd_Vertical" Width="106" Margin="0,0,1814,0" Background="#FFA500">
+        <Grid x:Name="grd_Vertical" Width="106" Margin="0,0,1814,0" Background="#FFFF2421">
             <Grid Height="60" Width="60" Margin="0,-760,0,0">
                 <Border CornerRadius="10" Background="#33830C0B"/>
                 <Label MouseDown="button_TimeTable_Click" x:Name="button_TimeTable" Content="" HorizontalAlignment="Center" Height="60" VerticalAlignment="Top" Width="60" Cursor="Hand" BorderBrush="{x:Null}">
@@ -58,8 +58,8 @@
         </Grid>
 
 
-        <Grid x:Name="grd_Horizontal" Height="100" Margin="0,0,0,980" Background="#FF830C0B">
-            <Label Content="eCeruza-Tanár" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Height="80" Width="300" FontSize="40" VerticalContentAlignment="Center" Foreground="Orange" FontWeight="DemiBold"/>
+        <Grid x:Name="grd_Horizontal" Height="100" Margin="0,0,0,980" Background="#252324">
+            <Label Content="eRaser-Tanár" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Height="80" Width="300" FontSize="40" VerticalContentAlignment="Center" Foreground="#F22A27" FontWeight="DemiBold"/>
         </Grid>
 
     </Grid>
