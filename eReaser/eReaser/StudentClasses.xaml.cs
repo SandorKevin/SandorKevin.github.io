@@ -38,11 +38,11 @@ namespace eReaser
             {
                 if (!totalGrades.ContainsKey(grade.Subject))
                 {
-                    totalGrades.Add(grade.Subject, new double[] {grade.Value, 1});
+                    totalGrades.Add(grade.Subject, new double[] { grade.Value, 1 });
                 }
                 else
                 {
-                    totalGrades[grade.Subject] = new double[] { totalGrades[grade.Subject][0] + grade.Value , totalGrades[grade.Subject][1] +1};
+                    totalGrades[grade.Subject] = new double[] { totalGrades[grade.Subject][0] + grade.Value, totalGrades[grade.Subject][1] + 1 };
                 }
             }
             foreach (KeyValuePair<string, double[]> kv in totalGrades)
@@ -73,7 +73,7 @@ namespace eReaser
                 {
                     foreach (Grade grade in student.Grades)
                     {
-                        if(grade.Subject == subject)
+                        if (grade.Subject == subject)
                         {
                             sum += grade.Value;
                             count++;
@@ -96,8 +96,8 @@ namespace eReaser
             for (int i = 0; i < 8; i++)
             {
                 BrushConverter bc = new();
-                Brush yellow = (Brush)bc.ConvertFrom("#FFA500");
-                yellow.Freeze();
+                Brush red = (Brush)bc.ConvertFrom("#F22A27");
+                red.Freeze();
                 CalculateClassAvg(MainWindow.AllSubjects[i]);
                 Grid grd = new Grid();
                 Label lbl_Subject = new Label();
@@ -107,20 +107,20 @@ namespace eReaser
                 lbl_Avg.Content = avgGrades[MainWindow.AllSubjects[i]];
                 Label lbl_ClassAvg = new Label();
                 Label person = new Label();
-                person.Background = new ImageBrush(new BitmapImage(new Uri("Source/img/person.png", UriKind.Relative)));
+                //person.Background = new ImageBrush(new BitmapImage(new Uri("Source/img/person.png", UriKind.Relative)));
                 person.Height = 50;
                 person.Width = 50;
                 person.Margin = new Thickness(50, 0, 0, 0);
                 Label people = new Label();
-                people.Background = new ImageBrush(new BitmapImage(new Uri("Source/img/people.png", UriKind.Relative)));
+                //people.Background = new ImageBrush(new BitmapImage(new Uri("Source/img/people.png", UriKind.Relative)));
                 people.Height = 50;
                 people.Width = 50;
                 people.Margin = new Thickness(450, 0, 0, 0);
                 lbl_ClassAvg.Margin = new Thickness(600, 0, 0, 0);
                 lbl_ClassAvg.Content = ClassAvg[MainWindow.AllSubjects[i]];
-                lbl_Subject.Foreground = yellow;
-                lbl_Avg.Foreground = yellow;
-                lbl_ClassAvg.Foreground = yellow;
+                lbl_Subject.Foreground = red;
+                lbl_Avg.Foreground = red;
+                lbl_ClassAvg.Foreground = red;
                 lbl_Subject.FontSize = 32;
                 lbl_Avg.FontSize = 32;
                 lbl_Subject.VerticalAlignment = VerticalAlignment.Center;

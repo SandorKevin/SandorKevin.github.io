@@ -20,9 +20,8 @@ namespace eReaser
     {
         #region Colors
         static BrushConverter bc = new();
-        public static Brush yellow = (Brush)bc.ConvertFrom("#FFA500");
-        public static Brush grey = (Brush)bc.ConvertFrom("#FFD4D4D4");
-        public static Brush brown = (Brush)bc.ConvertFrom("#830C0B");
+        public static Brush red = (Brush)bc.ConvertFrom("#FFFF2421");
+        public static Brush grey = (Brush)bc.ConvertFrom("#252324");
         #endregion
         static public List<Grade> gradesInSubject = new();
         static public GhostGrade GG;
@@ -55,7 +54,7 @@ namespace eReaser
                 }
             }
             lbl_Teacher.Content = teacher.Name;
-            
+
             for (int i = 0; i < gradesInSubject.Count; i++)
             {
                 #region Initialize
@@ -72,13 +71,13 @@ namespace eReaser
                 grd_Grade.Width = 700;
                 grd_Grade.Margin = new Thickness(0, 20, 0, 0);
                 border.CornerRadius = new CornerRadius(30);
-                border.Background = brown;
+                border.Background = grey;
                 #endregion
                 #region LabelStyle
                 #region FontColor
-                lbl_Value.Foreground = yellow;
-                lbl_Message.Foreground = yellow;
-                lbl_Date.Foreground = yellow;
+                lbl_Value.Foreground = red;
+                lbl_Message.Foreground = red;
+                lbl_Date.Foreground = red;
                 #endregion
                 #region FontSize
                 lbl_Value.FontSize = 34;
@@ -123,7 +122,7 @@ namespace eReaser
             Application.Current.MainWindow.Content = studentClasses.Content;
         }
 
-        
+
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -137,7 +136,7 @@ namespace eReaser
             Application.Current.MainWindow.WindowState = WindowState.Normal;
             Application.Current.MainWindow.Height = 550;
             Application.Current.MainWindow.Width = 800;
-            Application.Current.MainWindow.Content = mw.Content; 
+            Application.Current.MainWindow.Content = mw.Content;
         }
 
         static public void button_logoutClose_Click(object sender, RoutedEventArgs e)

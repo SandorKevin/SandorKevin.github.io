@@ -82,7 +82,5 @@
             <Label Grid.Column="8" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="#F22A27" Content="Ápr." HorizontalContentAlignment="Center"/>
             <Label Grid.Column="9" Grid.Row="0" FontSize="25" FontWeight="Bold" Foreground="White" Background="#F22A27" Content="Máj." HorizontalContentAlignment="Center"/>
         </Grid>
-
-        <Label Content="Órarend" HorizontalAlignment="Left" Margin="1551,117,0,0" VerticalAlignment="Top" Height="88" Width="287" FontSize="40" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="LightGray"/>
     </Grid>
 </Window>

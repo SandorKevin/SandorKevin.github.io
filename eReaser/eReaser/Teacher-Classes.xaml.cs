@@ -20,7 +20,7 @@ namespace eReaser
     /// </summary>
     public partial class Teacher_Classes : Window
     {
-        
+
         public Teacher_Classes()
         {
             InitializeComponent();
@@ -29,11 +29,11 @@ namespace eReaser
 
         private void InitializeClasses()
         {
-            
+
             int lblIndex = 1;
             foreach (var item in MainWindow.LoginName.ClassSubject)
             {
-             
+
                 Label lblName = this.FindName($"lbl{lblIndex++}") as Label;
                 lblName.Content = item.Key;
                 lblName.FontSize = 52;
@@ -43,7 +43,7 @@ namespace eReaser
                 //lblName.VerticalAlignment = VerticalAlignment.Center;
                 lblName.Visibility = Visibility.Visible;
             }
-            
+
 
         }
 

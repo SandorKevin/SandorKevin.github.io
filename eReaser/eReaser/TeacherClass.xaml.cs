@@ -40,6 +40,6 @@ namespace eReaser
             InitializeComponent();
         }
 
-        
+
     }
 }

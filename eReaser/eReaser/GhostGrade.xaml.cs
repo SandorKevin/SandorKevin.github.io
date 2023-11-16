@@ -18,7 +18,7 @@ namespace eReaser
     {
         static BrushConverter bc = new BrushConverter();
         string brush = "#FF962C2B";
-        Dictionary<int, int> grades = new Dictionary<int, int> { { 1 , 0 } , { 2, 0 } , { 3, 0 }, { 4, 0 }, { 5, 0 } };
+        Dictionary<int, int> grades = new Dictionary<int, int> { { 1, 0 }, { 2, 0 }, { 3, 0 }, { 4, 0 }, { 5, 0 } };
         public Label Current { get; set; }
         double Avg = StudentClasses.avgGrades[StudentClasses.SelectedSubject];
         int count = StudentGrades.gradesInSubject.Count;
@@ -28,11 +28,11 @@ namespace eReaser
         {
             InitializeComponent();
             sum = Avg * count;
-            lbl_Avg.Content = Math.Round(sum/count, 2);
+            lbl_Avg.Content = Math.Round(sum / count, 2);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
-        { 
+        {
             Label szendrei = sender as Label;
             Current = szendrei;
             Label? selected = null;
@@ -47,7 +47,7 @@ namespace eReaser
             }
             if (selected != null)
             {
-                selected.Background = (Brush)bc.ConvertFrom("#FF830C0B");
+                selected.Background = (Brush)bc.ConvertFrom("#252324");
             }
             szendrei.Background = (Brush)bc.ConvertFrom("#FF962C2B");
             lbl_Number.Content = grades[int.Parse(Current.Content.ToString())];
@@ -67,7 +67,7 @@ namespace eReaser
                 Average(true);
             }
             lbl_Number.Content = grades[int.Parse(Current.Content.ToString())];
-            
+
         }
 
         private void Average(bool add)
@@ -82,7 +82,7 @@ namespace eReaser
                 sum -= int.Parse(Current.Content.ToString());
                 count--;
             }
-            Avg = sum/count;
+            Avg = sum / count;
             lbl_Avg.Content = Math.Round(Avg, 2);
         }
 

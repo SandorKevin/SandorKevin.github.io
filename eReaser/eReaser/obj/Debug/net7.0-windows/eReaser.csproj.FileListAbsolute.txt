@@ -55,3 +55,4 @@ Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\Students_Timetable.baml
 Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\Teacher-Classes.baml
 Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\Teacher-Timetable.baml
 Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\TeacherClass.baml
+Z:\eraser\eReaser\eReaser\obj\Debug\net7.0-windows\eReaser.csproj.AssemblyReference.cache
